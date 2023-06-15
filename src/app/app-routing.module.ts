@@ -15,7 +15,7 @@ const routes: Routes = [
 { path: 'register', component: RegisterComponent},
 { path: 'progress', component: ProgressComponent},
 { path: 'grafica1', component: Grafica1Component},
-{ path: '/', redirectTo: '/dashboard', component: DashboardComponent},
+{ path: '', redirectTo: '/dashboard', pathMatch:'full'},
 { path: '**',  component: NopagefoundComponent},
 ]
 
