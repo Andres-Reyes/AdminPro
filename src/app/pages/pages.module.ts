@@ -6,6 +6,7 @@ import { Grafica1Component } from './grafica1/grafica1.component';
 import { SharedModule } from '../shared/shared.module';
 import { AppRoutingModule } from '../app-routing.module';
 import { PagesComponent } from './pages.component';
+import { AuthModule } from '../auth/auth.module';
 
 
 
@@ -24,7 +25,8 @@ import { PagesComponent } from './pages.component';
   imports: [
     CommonModule,
     SharedModule,
-    AppRoutingModule
+    AppRoutingModule,
+    AuthModule
   ]
 })
 export class PagesModule { }
